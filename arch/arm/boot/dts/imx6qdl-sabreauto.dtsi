@@ -37,6 +37,7 @@
 		};
 	};
 
+	/* key 입력을 위한 설정 */
 	gpio-keys {
 		compatible = "gpio-keys";
 		home {

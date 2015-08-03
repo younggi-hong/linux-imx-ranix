@@ -81,6 +81,7 @@
 		interrupt-parent = <&intc>;
 		ranges;
 
+		/* Cryptographic Acceleration and Assurance Module (Chp 11) */
 		caam_sm: caam-sm@00100000 {
 			compatible = "fsl,imx6q-caam-sm";
 			reg = <0x00100000 0x3fff>;
